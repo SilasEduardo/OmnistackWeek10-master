@@ -1,0 +1,40 @@
+.user-info {
+    width: 100%;
+    background: white;
+    padding: 2em;
+    box-shadow: 3px 7px 6px #999;
+    margin: 10px 0px;
+}
+
+.user-info header {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+
+.user-info strong, .user-info span {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.user-info p {
+    margin-top: 1em;
+    color: #999
+}
+
+@media(min-width: 760px) {
+    .user-info {
+        width: 45%;
+        margin: 10px;
+    }
+}

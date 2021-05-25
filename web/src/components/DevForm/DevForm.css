@@ -1,0 +1,40 @@
+input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid #999;
+    margin-bottom: 2em;
+}
+
+.row {
+   display: flex;
+   width: 100%;
+}
+
+.input-item {
+    width: 50%;
+    margin: 0 1em;
+}
+
+label {
+    color: #999
+}
+
+
+button {
+    width: 100%;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #6619af 0%, #621ca3 35%, #9742e7 100%);
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+button:hover {
+    background: #621ca3;
+}
+
+a {
+    text-decoration: none;
+    color: #621ca3;
+}
